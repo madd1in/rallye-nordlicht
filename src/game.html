@@ -91,10 +91,19 @@ body{margin:0;background:var(--ink);color:var(--paper);font-family:var(--ui);ove
 @keyframes fl{0%{opacity:0;transform:translate(-50%,-50%) scale(1.5)}22%{opacity:1;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(1)}}
 
 .screen{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  overflow:auto;-webkit-overflow-scrolling:touch;
   padding:clamp(12px,3vmin,34px);background:linear-gradient(180deg,rgba(4,6,11,.6),rgba(4,6,11,.88))}
 .screen[hidden]{display:none}
-.wrap{width:min(1020px,100%);display:grid;grid-template-columns:minmax(240px,.85fr) 1.15fr;
+.wrap{width:min(1020px,100%);margin:auto;display:grid;grid-template-columns:minmax(240px,.85fr) 1.15fr;
   gap:clamp(16px,3vw,44px);align-items:center}
+@media (max-height:470px){
+  .mark .a,.mark .b{font-size:clamp(26px,7.4vmin,42px)}
+  .rule{margin:8px 0 7px}
+  .tag{font-size:12px;line-height:1.4}
+  .keys{margin-top:9px;gap:3px}
+  .card{padding:7px 11px}
+  .go{margin-top:11px;gap:8px}
+}
 @media (max-width:760px){.wrap{grid-template-columns:1fr;gap:14px}}
 .mark{font-family:var(--disp);line-height:.84;letter-spacing:.01em}
 .mark .a{display:block;font-size:clamp(40px,8.4vmin,86px);color:var(--paper)}
