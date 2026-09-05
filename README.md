@@ -22,10 +22,17 @@ nachgefüllt wird.
 | 04 | Küstenkap | Schotter | 19,0 km | Morgengrauen am Meer, Leuchttürme, kein Geländer |
 | 05 | Doppelsonne | Sand | 16,0 km | Wüstenschlucht unter zwei Sonnen, Felsbögen, Sandsturm |
 | 06 | Stahlgraben | Stahl | 17,0 km | Graben durch eine Orbitalstation, Wände links und rechts |
+| 07 | Spukmoor | Moor | 14,5 km | Nebel, Grabsteine, Irrlichter, ein Herrenhaus mit Licht |
 
 Dazu der **Meisterschaftsmodus**: alle drei am Stück, Zeiten addiert, ein Ausfall beendet den Lauf.
 
-Zwei Etappen fallen aus der Reihe.
+Drei Etappen fallen aus der Reihe.
+
+**Spukmoor** führt bei Nacht durch ein Moor: schiefe Grabsteine dicht an der Piste, kahle
+Bäume, schmiedeeiserne Zäune, grün brennende Laternen und Irrlichter, die über dem Boden
+treiben. Zweimal geht es durch die Halle eines Herrenhauses mit Bogenfenstern, Spinnweben in
+den Ecken und Kerzenhaltern an den Wänden. Und hin und wieder steht plötzlich ein
+durchscheinendes Auto auf der Strecke, das sich auflöst, bevor du es erreichst.
 
 **Stahlgraben** führt durch einen Versorgungsgraben quer über eine Orbitalstation: schwarzer
 Himmel mit Sternen und einem gebänderten Gasriesen, Stahlplatten als Fahrbahn mit dem besten
