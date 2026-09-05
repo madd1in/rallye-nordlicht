@@ -23,10 +23,17 @@ nachgefüllt wird.
 | 05 | Doppelsonne | Sand | 16,0 km | Wüstenschlucht unter zwei Sonnen, Felsbögen, Sandsturm |
 | 06 | Stahlgraben | Stahl | 17,0 km | Graben durch eine Orbitalstation, Wände links und rechts |
 | 07 | Spukmoor | Moor | 14,5 km | Nebel, Grabsteine, Irrlichter, ein Herrenhaus mit Licht |
+| 08 | Hochkathedrale | Stein | 16,5 km | Goldenes Abendlicht, Strebepfeiler, unter dir nur Wolken |
 
 Dazu der **Meisterschaftsmodus**: alle drei am Stück, Zeiten addiert, ein Ausfall beendet den Lauf.
 
-Drei Etappen fallen aus der Reihe.
+Vier Etappen fallen aus der Reihe.
+
+**Hochkathedrale** führt über Steinplatten durch eine gotische Stadt im Abendlicht: drei
+Parallaxebenen aus Türmen mit Spitzdächern, Strebepfeiler und Standbilder am Wegrand, brennende
+Feuerschalen, und unter dem Horizont ein Wolkenmeer statt Land. Über weite Strecken läuft die
+Piste auf Brücken mit steinerner Balustrade, zweimal geht es durch ein Kirchenschiff mit
+Säulenreihen und leuchtenden Bogenfenstern.
 
 **Spukmoor** führt bei Nacht durch ein Moor: schiefe Grabsteine dicht an der Piste, kahle
 Bäume, schmiedeeiserne Zäune, grün brennende Laternen und Irrlichter, die über dem Boden
