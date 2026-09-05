@@ -19,6 +19,7 @@ nachgefüllt wird.
 | 01 | Alpenpass | Asphalt | 13,0 km | Regen, nasse Fahrbahn, Leitplanken |
 | 02 | Schotterwald | Schotter | 15,0 km | Loser Belag, Abendsonne, Staub |
 | 03 | Nordlicht | Schnee | 17,0 km | Nachtetappe, Eis, Schneestangen |
+| 04 | Küstenkap | Schotter | 19,0 km | Morgengrauen am Meer, Leuchttürme, kein Geländer |
 
 Dazu der **Meisterschaftsmodus**: alle drei am Stück, Zeiten addiert, ein Ausfall beendet den Lauf.
 
@@ -73,6 +74,17 @@ Neben Kurven und Kuppen liegen ein paar Dinge, auf die es sich zu zielen lohnt:
 | Esc | Zurück ins Menü |
 
 Im Menü wählen ↑ ↓ die Etappe und ← → den Wagen.
+
+### Auf dem Handy
+
+Auf Touchgeräten erscheinen Bildschirmtasten: zwei Lenkflächen links, Bremse rechts,
+darüber Handbremse und Schub. **Auto-Gas** ist voreingestellt — das Auto beschleunigt von
+selbst, damit ein Daumen fürs Lenken frei bleibt; im Menü lässt sich das abschalten,
+dann kommt eine Gastaste dazu. Der Finger darf zwischen den Tasten wandern, ohne
+abzusetzen, und mehrere Finger gleichzeitig funktionieren.
+
+Dazu: Vollbildschalter im Menü, Hinweis beim Hochkant-Halten, Rumpeln bei Kollisionen
+und eine reduzierte Sichtweite auf kleinen Geräten.
 
 Auf Touchgeräten erscheinen Bildschirmtasten; der Schub zündet dort automatisch, sobald der Balken voll ist.
 
