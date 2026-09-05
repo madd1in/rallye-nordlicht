@@ -22,9 +22,19 @@ nachgefüllt wird.
 
 Dazu der **Meisterschaftsmodus**: alle drei am Stück, Zeiten addiert, ein Ausfall beendet den Lauf.
 
+Jede Etappe hat ihren eigenen **Tagesverlauf**: der Alpenpass reißt gegen Ende auf und der Regen
+lässt nach, der Schotterwald kippt aus dem Abendlicht in die Dämmerung, und über dem Nordlicht
+zieht zum Ziel hin die erste Morgenhelligkeit auf. Himmel, Nebelfarbe, Sonnenstand und
+Gesamtstimmung interpolieren dabei über die Streckenlänge.
+
 Auf jeder Etappe fahren **fünf Gegner** vor dir los. Du startest als Sechster; jeder Überholvorgang
-zählt, jeder Rempler kostet Tempo. Ab dem zweiten Lauf fährt zusätzlich dein **Bestzeit-Geist** mit —
-ein halbtransparentes Auto auf der Ideallinie deines Rekords, mit laufendem Zeitabstand im Display.
+zählt, jeder Rempler kostet Tempo. Der vorderste trägt einen gelben Pfeil: das ist dein
+**Duellgegner**. Er fährt ein festes, schnelles Tempo mit leichter Gummiband-Korrektur, damit das
+Duell offen bleibt, und der Abstand zu ihm steht laufend im Display. Wer ihn bis zum Ziel hinter
+sich lässt, bekommt 3000 Punkte.
+
+Ab dem zweiten Lauf fährt zusätzlich dein **Bestzeit-Geist** mit — ein halbtransparentes Auto
+auf der Ideallinie deines Rekords, mit laufendem Zeitabstand im Display.
 
 ## Drei Fahrzeuge
 
@@ -101,11 +111,13 @@ Alles in `src/game.html`, rund 2000 Zeilen ohne Framework:
 - **Streckenmöblierung** — Tunnelröhren aus gestapelten Portalringen (der Regen hört darin auf),
   Brückenabschnitte über einem Abgrund mit Fachwerkgeländer, Nebelbänke, Laternen mit Lichtinseln
   auf der Nachtetappe, Warnschraffur vor scharfen Kurven, eingefahrene Reifenspuren in der
-  Ideallinie, Pfützen mit Gischt, Zuschauergruppen, Hütten, Holzstapel.
+  Ideallinie, Pfützen mit Gischt, Ortsdurchfahrten mit beidseitiger Bebauung und beleuchteten
+  Fenstern, Zuschauergruppen, Hütten, Holzstapel.
 - **Horizont** — drei parallaxe Gebirgsebenen pro Etappe, die fernste mit Schneekappen auf den Gipfeln.
 - **Streckenanalyse** — nach dem Bau werden Kurven zu Ansagen und zur Vorhersage verdichtet
   (Schärfe, Winkel, "lang" / "kurz" / "zieht zu"), Kuppen und Sprünge separat erkannt.
-- **Audio** — Motor als drehzahlgekoppelte Oszillatoren, Untergrund als gefiltertes Rauschen,
+- **Audio** — Motor als drehzahlgekoppelte Oszillatoren mit Hall in den Tunneln,
+  Untergrund als gefiltertes Rauschen,
   Musik als 16tel-Sequencer mit eigener Tonart und Tempo je Etappe. Das Tempo steigt mit
   deiner Geschwindigkeit.
 
