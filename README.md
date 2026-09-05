@@ -49,6 +49,17 @@ Unter der Etappenliste steht die Fahrzeugwahl. Die beiden hinteren Wagen sind zu
 Die Werte greifen direkt in die Fahrphysik: Beschleunigung, Höchstgeschwindigkeit,
 Haftungsrückstellung und Lenkautorität. Jeder Wagen hat seine eigene Lackierung und Startnummer.
 
+## Was auf der Strecke passiert
+
+Neben Kurven und Kuppen liegen ein paar Dinge, auf die es sich zu zielen lohnt:
+
+- **Turbo-Pfeile** — amberne Pfeile auf der Fahrbahn, oft abseits der Ideallinie. Wer drüberfährt,
+  bekommt sofort Schub. Jeder Pfeil zündet nur einmal pro Lauf.
+- **Wasserdurchfahrten** — eine Furt pro Etappe. Über 52 % Tempo bremst das Wasser hart,
+  die Haftung fällt, das Heck wird unruhig, und es spritzt gewaltig.
+- **Perfekte Kurven** — wer eine Kurve der Schärfe 4 oder enger durchfährt, ohne die Straße
+  zu verlassen und ohne unter das Grenztempo zu fallen, bekommt Punkte und eine Ansage.
+
 ## Steuerung
 
 | Taste | Funktion |
@@ -90,7 +101,10 @@ Ein Rempler setzt ihn auf x1 zurück.
 | Knapp vorbei an Hindernis oder Gegner | 150 bzw. 200 + etwas Drift-Schub |
 | Überholvorgang | 500 |
 | Sauber gelandeter Sprung | 300 + 1,5 s |
+| Perfekte Kurve (Tempo gehalten, auf der Straße geblieben) | 400 |
+| Turbo-Pfeil getroffen | 200 + sofortiger Schub |
 | Kontrollpunkt | 1000 |
+| Duellgegner im Ziel geschlagen | 3000 |
 | Kollision | −200 |
 
 Am Ende gibt es zusätzlich zur Medaille einen **Rang** von S bis C aus Zeit und Punkten.
@@ -112,7 +126,9 @@ Alles in `src/game.html`, rund 2000 Zeilen ohne Framework:
   Brückenabschnitte über einem Abgrund mit Fachwerkgeländer, Nebelbänke, Laternen mit Lichtinseln
   auf der Nachtetappe, Warnschraffur vor scharfen Kurven, eingefahrene Reifenspuren in der
   Ideallinie, Pfützen mit Gischt, Ortsdurchfahrten mit beidseitiger Bebauung und beleuchteten
-  Fenstern, Zuschauergruppen, Hütten, Holzstapel.
+  Fenstern, Wasserdurchfahrten mit bewegtem Glanz, Zuschauergruppen, Hütten, Holzstapel.
+- **Effekte** — Blendung, wenn die Sonne in Fahrtrichtung steht, Laubwirbel im Schotterwald,
+  Schlammspritzer und Risse in der Heckscheibe, die mit dem Schaden am Auto wachsen.
 - **Horizont** — drei parallaxe Gebirgsebenen pro Etappe, die fernste mit Schneekappen auf den Gipfeln.
 - **Streckenanalyse** — nach dem Bau werden Kurven zu Ansagen und zur Vorhersage verdichtet
   (Schärfe, Winkel, "lang" / "kurz" / "zieht zu"), Kuppen und Sprünge separat erkannt.
