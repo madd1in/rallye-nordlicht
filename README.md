@@ -50,13 +50,25 @@ Die zentrale Anzeige über dem Horizont zeigt die nächste Kurve, bevor du sie s
 - **Roter Ring plus rotes Band auf der Fahrbahn**, sobald du zu schnell für die Kurve bist —
   das Band markiert den spätesten Bremspunkt, berechnet aus Tempo, Verzögerung und Untergrund
 
-Der Beifahrer sagt dieselbe Kurve an ("links drei, zieht zu"), per Sprachausgabe und als
-Roadbook-Karte mit Tulip-Symbol.
+Der Beifahrer sagt dieselbe Kurve per Sprachausgabe an ("links drei, zieht zu") — die Anzeige
+ist die einzige Stelle im Bild, an der die Kurve steht.
 
 ## Punkte
 
-Neben der Uhr läuft eine Arcade-Wertung: Driften bringt laufend Punkte, ein Überholvorgang 500,
-ein sauber gelandeter Sprung 300 und Zeit obendrauf, jeder Kontrollpunkt 1000. Kollisionen ziehen ab.
+Neben der Uhr läuft eine Arcade-Wertung mit **Combo-Multiplikator**: jedes gelungene Ereignis
+hebt ihn um eine Stufe, bis zu x8, und er verfällt nach vier Sekunden ohne Nachschub.
+Ein Rempler setzt ihn auf x1 zurück.
+
+| Ereignis | Punkte |
+|---|---|
+| Driften | laufend, je nach Winkel und Tempo |
+| Knapp vorbei an Hindernis oder Gegner | 150 bzw. 200 + etwas Drift-Schub |
+| Überholvorgang | 500 |
+| Sauber gelandeter Sprung | 300 + 1,5 s |
+| Kontrollpunkt | 1000 |
+| Kollision | −200 |
+
+Am Ende gibt es zusätzlich zur Medaille einen **Rang** von S bis C aus Zeit und Punkten.
 
 ## Technik
 
@@ -71,6 +83,9 @@ Alles in `src/game.html`, rund 2000 Zeilen ohne Framework:
   steigendem Tempo, Handbremse löst die Haftung. Gegenlenken erhöht die Haftung, damit ein Rutscher
   fangbar bleibt. Sprungkuppen heben Kamera und Auto ab; schief gelandet kostet Tempo und Blech.
 - **Kamera** — neigt sich in Kurven mit Tempo und Schräglauf, mit einem Zoomstoß beim Drift-Schub.
+- **Streckenmöblierung** — Tunnelröhren aus gestapelten Portalringen (der Regen hört darin auf),
+  Laternen mit Lichtinseln auf der Nachtetappe, Warnschraffur vor scharfen Kurven, eingefahrene
+  Reifenspuren in der Ideallinie, Zuschauergruppen, Hütten, Holzstapel.
 - **Streckenanalyse** — nach dem Bau werden Kurven zu Ansagen und zur Vorhersage verdichtet
   (Schärfe, Winkel, "lang" / "kurz" / "zieht zu"), Kuppen und Sprünge separat erkannt.
 - **Audio** — Motor als drehzahlgekoppelte Oszillatoren, Untergrund als gefiltertes Rauschen,
