@@ -131,7 +131,8 @@ Ein Rempler setzt ihn auf x1 zurück.
 | Turbo-Pfeil getroffen | 200 + sofortiger Schub |
 | Kontrollpunkt | 1000 |
 | Duellgegner im Ziel geschlagen | 3000 |
-| Kollision | −200 |
+| Strohballen, Schild, Stange oder Busch durchbrochen | 150 |
+| Kollision mit festem Hindernis | −200 |
 
 Am Ende gibt es zusätzlich zur Medaille einen **Rang** von S bis C aus Zeit und Punkten.
 
@@ -153,6 +154,9 @@ Alles in `src/game.html`, rund 2000 Zeilen ohne Framework:
   auf der Nachtetappe, Warnschraffur vor scharfen Kurven, eingefahrene Reifenspuren in der
   Ideallinie, Pfützen mit Gischt, Ortsdurchfahrten mit beidseitiger Bebauung und beleuchteten
   Fenstern, Wasserdurchfahrten mit bewegtem Glanz, Zuschauergruppen, Hütten, Holzstapel.
+- **Fahrzeug** — vollständig aus Pfaden gezeichnet: Kotflügelverbreiterungen, Heckflügel mit
+  Endplatten, Heckscheibe mit Überrollbügel und Spiegelung, Leuchteneinheiten mit Bremsglühen,
+  Diffusor mit Finnen, Auspuffendrohre, Schmutzfänger, mitlaufendes Reifenprofil.
 - **Effekte** — Blendung, wenn die Sonne in Fahrtrichtung steht, Laubwirbel im Schotterwald,
   Schlammspritzer und Risse in der Heckscheibe, die mit dem Schaden am Auto wachsen.
 - **Horizont** — drei parallaxe Gebirgsebenen pro Etappe, die fernste mit Schneekappen auf den Gipfeln.
