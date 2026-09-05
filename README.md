@@ -20,8 +20,14 @@ nachgefüllt wird.
 | 02 | Schotterwald | Schotter | 15,0 km | Loser Belag, Abendsonne, Staub |
 | 03 | Nordlicht | Schnee | 17,0 km | Nachtetappe, Eis, Schneestangen |
 | 04 | Küstenkap | Schotter | 19,0 km | Morgengrauen am Meer, Leuchttürme, kein Geländer |
+| 05 | Doppelsonne | Sand | 16,0 km | Wüstenschlucht unter zwei Sonnen, Felsbögen, Sandsturm |
 
 Dazu der **Meisterschaftsmodus**: alle drei am Stück, Zeiten addiert, ein Ausfall beendet den Lauf.
+
+**Doppelsonne** fällt aus der Reihe: eine Science-Fiction-Schlucht mit zwei Sonnen am Himmel,
+Tafelbergen bis zum Horizont, Felsnadeln und Sendetürmen am Pistenrand, Durchfahrten durch
+ausgewaschene Felsbögen und einem Sandsturm, der quer durchs Bild zieht. Die Fahrzeuge schweben
+hier auf einem Repulsorfeld statt zu rollen.
 
 Jede Etappe hat ihren eigenen **Tagesverlauf**: der Alpenpass reißt gegen Ende auf und der Regen
 lässt nach, der Schotterwald kippt aus dem Abendlicht in die Dämmerung, und über dem Nordlicht
