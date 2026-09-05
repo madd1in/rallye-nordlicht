@@ -26,6 +26,19 @@ Auf jeder Etappe fahren **fünf Gegner** vor dir los. Du startest als Sechster; 
 zählt, jeder Rempler kostet Tempo. Ab dem zweiten Lauf fährt zusätzlich dein **Bestzeit-Geist** mit —
 ein halbtransparentes Auto auf der Ideallinie deines Rekords, mit laufendem Zeitabstand im Display.
 
+## Drei Fahrzeuge
+
+Unter der Etappenliste steht die Fahrzeugwahl. Die beiden hinteren Wagen sind zu Beginn gesperrt.
+
+| Wagen | Antritt | Tempo | Grip | Freischaltung |
+|---|---|---|---|---|
+| Gruppe B | mittel | mittel | mittel | von Anfang an |
+| Kompakt | hoch | niedrig | sehr hoch | eine Etappe beenden |
+| Turbo Allrad | sehr hoch | sehr hoch | niedrig | einmal Gold fahren |
+
+Die Werte greifen direkt in die Fahrphysik: Beschleunigung, Höchstgeschwindigkeit,
+Haftungsrückstellung und Lenkautorität. Jeder Wagen hat seine eigene Lackierung und Startnummer.
+
 ## Steuerung
 
 | Taste | Funktion |
@@ -37,6 +50,8 @@ ein halbtransparentes Auto auf der Ideallinie deines Rekords, mit laufendem Zeit
 | Shift | Drift-Schub abrufen |
 | R | Etappe neu starten |
 | Esc | Zurück ins Menü |
+
+Im Menü wählen ↑ ↓ die Etappe und ← → den Wagen.
 
 Auf Touchgeräten erscheinen Bildschirmtasten; der Schub zündet dort automatisch, sobald der Balken voll ist.
 
@@ -84,8 +99,10 @@ Alles in `src/game.html`, rund 2000 Zeilen ohne Framework:
   fangbar bleibt. Sprungkuppen heben Kamera und Auto ab; schief gelandet kostet Tempo und Blech.
 - **Kamera** — neigt sich in Kurven mit Tempo und Schräglauf, mit einem Zoomstoß beim Drift-Schub.
 - **Streckenmöblierung** — Tunnelröhren aus gestapelten Portalringen (der Regen hört darin auf),
-  Laternen mit Lichtinseln auf der Nachtetappe, Warnschraffur vor scharfen Kurven, eingefahrene
-  Reifenspuren in der Ideallinie, Zuschauergruppen, Hütten, Holzstapel.
+  Brückenabschnitte über einem Abgrund mit Fachwerkgeländer, Nebelbänke, Laternen mit Lichtinseln
+  auf der Nachtetappe, Warnschraffur vor scharfen Kurven, eingefahrene Reifenspuren in der
+  Ideallinie, Pfützen mit Gischt, Zuschauergruppen, Hütten, Holzstapel.
+- **Horizont** — drei parallaxe Gebirgsebenen pro Etappe, die fernste mit Schneekappen auf den Gipfeln.
 - **Streckenanalyse** — nach dem Bau werden Kurven zu Ansagen und zur Vorhersage verdichtet
   (Schärfe, Winkel, "lang" / "kurz" / "zieht zu"), Kuppen und Sprünge separat erkannt.
 - **Audio** — Motor als drehzahlgekoppelte Oszillatoren, Untergrund als gefiltertes Rauschen,
