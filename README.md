@@ -51,6 +51,18 @@ sich lässt, bekommt 3000 Punkte.
 Ab dem zweiten Lauf fährt zusätzlich dein **Bestzeit-Geist** mit — ein halbtransparentes Auto
 auf der Ideallinie deines Rekords, mit laufendem Zeitabstand im Display.
 
+## Spiegelvariante
+
+Ein Schalter im Menü dreht jede Etappe seitenverkehrt: alle Kurven wechseln das Vorzeichen,
+die gesamte Streckenmöblierung wandert auf die andere Seite. Aus sechs Prüfungen werden zwölf,
+und jede Variante führt ihre eigene Bestzeit, ihre eigenen Sektionszeiten und ihren eigenen Geist.
+
+## Palmarès
+
+Ein eigener Bildschirm im Menü listet für jede Etappe die Bestzeit normal und gespiegelt,
+den Punkterekord und die höchste Medaille, dazu bezwungene Etappen, Goldzeiten, beide
+Meisterschaftsrekorde und die im Rekord gefahrene Strecke.
+
 ## Drei Fahrzeuge
 
 Unter der Etappenliste steht die Fahrzeugwahl. Die beiden hinteren Wagen sind zu Beginn gesperrt.
@@ -62,7 +74,8 @@ Unter der Etappenliste steht die Fahrzeugwahl. Die beiden hinteren Wagen sind zu
 | Turbo Allrad | sehr hoch | sehr hoch | niedrig | einmal Gold fahren |
 
 Die Werte greifen direkt in die Fahrphysik: Beschleunigung, Höchstgeschwindigkeit,
-Haftungsrückstellung und Lenkautorität. Jeder Wagen hat seine eigene Lackierung und Startnummer.
+Haftungsrückstellung und Lenkautorität. Jeder Wagen hat seine eigene Startnummer, und darunter
+stehen sechs **Lackierungen** zur Wahl — Werk, Nacht, Rennrot, Wald, Sand und Graphit.
 
 ## Was auf der Strecke passiert
 
