@@ -16,11 +16,15 @@ nachgefüllt wird.
 
 | # | Etappe | Untergrund | Länge | Charakter |
 |---|--------|-----------|-------|-----------|
-| 01 | Alpenpass | Asphalt | 13,0 km | Griffig, Leitplanken, kein Auslauf |
+| 01 | Alpenpass | Asphalt | 13,0 km | Regen, nasse Fahrbahn, Leitplanken |
 | 02 | Schotterwald | Schotter | 15,0 km | Loser Belag, Abendsonne, Staub |
 | 03 | Nordlicht | Schnee | 17,0 km | Nachtetappe, Eis, Schneestangen |
 
 Dazu der **Meisterschaftsmodus**: alle drei am Stück, Zeiten addiert, ein Ausfall beendet den Lauf.
+
+Auf jeder Etappe fahren **fünf Gegner** vor dir los. Du startest als Sechster; jeder Überholvorgang
+zählt, jeder Rempler kostet Tempo. Ab dem zweiten Lauf fährt zusätzlich dein **Bestzeit-Geist** mit —
+ein halbtransparentes Auto auf der Ideallinie deines Rekords, mit laufendem Zeitabstand im Display.
 
 ## Steuerung
 
@@ -49,6 +53,11 @@ Die zentrale Anzeige über dem Horizont zeigt die nächste Kurve, bevor du sie s
 Der Beifahrer sagt dieselbe Kurve an ("links drei, zieht zu"), per Sprachausgabe und als
 Roadbook-Karte mit Tulip-Symbol.
 
+## Punkte
+
+Neben der Uhr läuft eine Arcade-Wertung: Driften bringt laufend Punkte, ein Überholvorgang 500,
+ein sauber gelandeter Sprung 300 und Zeit obendrauf, jeder Kontrollpunkt 1000. Kollisionen ziehen ab.
+
 ## Technik
 
 Alles in `src/game.html`, rund 2000 Zeilen ohne Framework:
@@ -58,9 +67,10 @@ Alles in `src/game.html`, rund 2000 Zeilen ohne Framework:
   werden beim Start prozedural auf Offscreen-Canvas gezeichnet.
 - **Strecken** — pro Etappe aus einem festen Seed erzeugt. Gleiche Etappe, gleiche Strecke,
   vergleichbare Bestzeiten.
-- **Fahrwerk** — Seitenschlupf mit Trägheit, untergrundabhängiger Grip, Untersteuern mit
-  steigendem Tempo, Handbremse löst die Haftung. Sprungkuppen heben Kamera und Auto ab;
-  schief gelandet kostet Tempo und Blech.
+- **Fahrwerk** — Seitenschlupf mit Trägheit, untergrundabhängiger Grip, leichtes Untersteuern mit
+  steigendem Tempo, Handbremse löst die Haftung. Gegenlenken erhöht die Haftung, damit ein Rutscher
+  fangbar bleibt. Sprungkuppen heben Kamera und Auto ab; schief gelandet kostet Tempo und Blech.
+- **Kamera** — neigt sich in Kurven mit Tempo und Schräglauf, mit einem Zoomstoß beim Drift-Schub.
 - **Streckenanalyse** — nach dem Bau werden Kurven zu Ansagen und zur Vorhersage verdichtet
   (Schärfe, Winkel, "lang" / "kurz" / "zieht zu"), Kuppen und Sprünge separat erkannt.
 - **Audio** — Motor als drehzahlgekoppelte Oszillatoren, Untergrund als gefiltertes Rauschen,
