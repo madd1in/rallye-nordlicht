@@ -21,10 +21,18 @@ nachgefüllt wird.
 | 03 | Nordlicht | Schnee | 17,0 km | Nachtetappe, Eis, Schneestangen |
 | 04 | Küstenkap | Schotter | 19,0 km | Morgengrauen am Meer, Leuchttürme, kein Geländer |
 | 05 | Doppelsonne | Sand | 16,0 km | Wüstenschlucht unter zwei Sonnen, Felsbögen, Sandsturm |
+| 06 | Stahlgraben | Stahl | 17,0 km | Graben durch eine Orbitalstation, Wände links und rechts |
 
 Dazu der **Meisterschaftsmodus**: alle drei am Stück, Zeiten addiert, ein Ausfall beendet den Lauf.
 
-**Doppelsonne** fällt aus der Reihe: eine Science-Fiction-Schlucht mit zwei Sonnen am Himmel,
+Zwei Etappen fallen aus der Reihe.
+
+**Stahlgraben** führt durch einen Versorgungsgraben quer über eine Orbitalstation: schwarzer
+Himmel mit Sternen und einem gebänderten Gasriesen, Stahlplatten als Fahrbahn mit dem besten
+Grip im Spiel, und über weite Strecken Wände links und rechts, an deren Fuß eine cyanfarbene
+Leuchtlinie mitläuft. Dazwischen offene Passagen mit Geschütztürmen und Antennenschüsseln.
+
+**Doppelsonne** fällt ebenfalls aus der Reihe: eine Science-Fiction-Schlucht mit zwei Sonnen am Himmel,
 Tafelbergen bis zum Horizont, Felsnadeln und Sendetürmen am Pistenrand, Durchfahrten durch
 ausgewaschene Felsbögen und einem Sandsturm, der quer durchs Bild zieht. Die Fahrzeuge schweben
 hier auf einem Repulsorfeld statt zu rollen.
